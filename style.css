@@ -1,0 +1,65 @@
+body{
+  margin:0;
+  padding:0;
+  
+}
+
+
+.Baslik{
+  width: 100%;
+  height: 60px;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(180, 189, 119);
+}
+
+.logo{
+  padding-left: 50px;
+}
+
+.sag{
+  padding-right: 50px;
+}
+
+.wrapper{
+  margin: 20px;
+  width: 785px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background: transparent;
+}
+
+.cihaz{
+}
+
+.bildirim-alani{
+  margin-right: 390px;
+  margin-bottom: 550px;
+  padding-left: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  line-height: 1px;
+  justify-content:space-around;
+  height: 100px;
+  width: 290px;
+  background: #6EA33D;
+  border-radius: 10px;
+  color: white;
+  box-shadow: -14px 15px 19px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -14px 15px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -14px 15px 19px 0px rgba(0,0,0,0.75);
+}
+
+#baslik{
+ color: white; 
+  font-size: 20px;
+}
+
+#icerik{
+  font-size: 18px;
+}
