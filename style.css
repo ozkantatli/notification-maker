@@ -22,6 +22,13 @@ body{
 .sag{
   padding-right: 50px;
 }
+.ust{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+}
 
 .wrapper{
   margin: 20px;
@@ -32,34 +39,58 @@ body{
   background: transparent;
 }
 
-.cihaz{
-}
 
 .bildirim-alani{
-  margin-right: 390px;
-  margin-bottom: 550px;
-  padding-left: 20px;
+  margin-bottom: 50%;
+  padding: 30px;
   position: absolute;
   display: flex;
   flex-direction: column;
   align-items: start;
-  line-height: 1px;
   justify-content:space-around;
-  height: 100px;
-  width: 290px;
+  height: 15%;
+  width: 34%;
   background: #6EA33D;
   border-radius: 10px;
   color: white;
   box-shadow: -14px 15px 19px 0px rgba(0,0,0,0.75);
-  -webkit-box-shadow: -14px 15px 19px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: -14px 15px 19px 0px rgba(0,0,0,0.75);
+}
+
+#phone{
+  width: 100%;
+  object-fit: contain;
 }
 
 #baslik{
- color: white; 
-  font-size: 20px;
+  color: white; 
+  text-shadow: 3px 3px  black;
+  font-size: 36px;
 }
 
 #icerik{
-  font-size: 18px;
+  font-size: 24px;
+  text-shadow: 3px 3px  black;
+}
+
+.metin{
+  display: flex;
+  flex-direction:column;
+  width: 200%;
+  font-size: 24px;
+}
+
+input{
+  border: 2px solid;
+  border-radius: 4px;
+  height: 20px;
+}
+#btn-gonder{
+  margin-top: 10px;
+  padding:5px;
+  width: 100px;
+}
+
+#btn-gonder:hover{
+  background:#2f2f2f;
+  color: white;
 }
